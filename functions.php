@@ -18,5 +18,5 @@ add_action('wp_enqueue_scripts', 'add_custom_script');
 
 function add_custom_script()
 {
-    wp_enqueue_style('scripts', get_stylesheet_directory_uri() . '/js/scripts.js');
+    wp_enqueue_script('scripts', get_stylesheet_directory_uri() . '/js/scripts.js');
 }
