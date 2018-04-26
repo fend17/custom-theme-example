@@ -62,5 +62,10 @@ get_header(); ?>
 </div>
 <!-- .content-area -->
 
-<?php get_sidebar(); ?>
+<?php 
+      // Get widget areas
+      get_sidebar();
+      get_sidebar('content-bottom');
+      get_sidebar('content-bottom-2');
+?>
 <?php get_footer();
