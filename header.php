@@ -20,6 +20,7 @@
 	<?php if (is_singular() && pings_open(get_queried_object())) : ?>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<?php endif; ?>
+	<!--- THIS IS WHERE WE ENQUEUE SCRIPTS -->
 	<?php wp_head(); ?>
 </head>
 
