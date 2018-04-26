@@ -1,6 +1,8 @@
 <?php
 /**
  * Template Name: Full Width
+ * https://developer.wordpress.org/themes/template-files-section/page-template-files/
+ * Template Post Type: post, page, event
  */
 
 get_header(); ?>
