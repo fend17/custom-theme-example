@@ -16,6 +16,10 @@ function my_theme_enqueue_styles()
 
 add_action('wp_enqueue_scripts', 'add_custom_script');
 
+/**
+ * Function to enqueue a custom javascript-file
+ * https://developer.wordpress.org/reference/functions/wp_enqueue_script/
+ */
 function add_custom_script()
 {
     wp_enqueue_script('scripts', get_stylesheet_directory_uri() . '/js/scripts.js');
